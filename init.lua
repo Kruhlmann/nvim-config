@@ -1,0 +1,12 @@
+require "initd.colorscheme"
+require "initd.options"
+require "initd.keymap"
+require "initd.latex"
+require "initd.solidity"
+require "initd.cmp"
+require "initd.coq"
+require "initd.lsp"
+require "initd.lsp_signature"
+require "initd.lsp_installer"
+require("initd.lsp_handlers").setup()
+require "initd.null-ls"
